@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search page</title>
+    <style type="text/css">
+        
+        body {
+            max-width: 13200px;
+            background: url('apar3.jpg'); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: sans-serif;
+        }
+
+        header {
+            margin-top: 20px;
+        }
+
+        nav {
+            margin-left: 540px;
+        }
+
+        .portfolio{
+            margin-top: -20px;
+            float: right;
+        }
+
+        .logo {
+            float: left;
+            font-size: 24px;
+            color: white;
+            margin-left: 30px;
+        }
+        
+        .menu a, .portfolio a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 8px;
+            background: indianred;
+        }
+
+        .menu a:hover {
+            background-color:red;
+        }
+
+        .portfolio a:hover{
+            background-color: red;
+        }
+        
+        .heading {
+            text-align: center;
+            color: white;
+            margin-top: 150px;
+            margin-bottom: 100px;
+        }
+
+        .heading h1 {
+            font-size: 56px;
+        }
+
+        .home form {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 80px;
+            width: 400px; 
+            padding: 30px;
+            margin: auto;
+            margin-bottom: 120px;
+        }
+
+        .home form h3 {
+            margin-bottom: 78px; 
+            font-size: 24px; 
+            text-align: center;
+        }
+
+        .input-container {
+            margin-bottom: 25px; 
+        }
+
+        .input-container select {
+            padding: 8px; 
+            margin-left: 50px;
+            border-radius: 80px; 
+            width: 300px; 
+            font-size: 16px; 
+        }
+
+        .submit-btn {
+            margin-left: 100px;
+            padding: 16px;
+            font-size: 19px; 
+            border-radius: 8px; 
+            background: lightsalmon;
+            color: white;
+        }
+
+        .submit-btn:hover {
+            background: red;
+        }
+
+        .footer {
+            color: #fff;
+            text-align: center;
+        }
+ 
+    </style>
+</head>
+<body>
+    <header>
+            <div class="logo">Apartment Finder</div>
+            <nav>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="search.html">Search</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="portfolio">
+                <a href="portfolio.html" target="_blank">Portfolio</a>
+            </div>
+        </nav>
+    </header>
+
+        <div class="heading">
+            <h1>Welcome to search section</h1>
+        </div>
+    
+    <div class="home">
+        <form action="#" method="post">
+            <h3>Find Your Perfect Home</h3>
+
+            <div class="input-container">
+                <select name="location">
+                    <option value="">Search Location</option>
+                    <option value="th">Thapathali</option>
+                    <option value="br">Baneshwor</option>
+                    <option value="tm">Thamel</option>
+                    <option value="db">Durbarmarg</option>
+                </select>
+            </div>
+
+                <div class="input-container">
+                <select name="price-range">
+                    <option value="">Price Range</option>
+                    <option value="p1">Rs.20,00,000 - Rs.30,00,00</option>
+                    <option value="p2">Rs.30,00,000 - Rs.50,00,000</option>
+                    <option value="p3">Rs.50,00,000 - Rs.70,00,000</option>
+                    <option value="p4">Rs.70,00,000 - Rs.3,20,00,000</option>
+                </select>
+                </div>
+            
+            <div class="input-container">
+                <select name="property-status">
+                    <option value="">Property Status</option>
+                    <option value="a">Ready to move</option>
+                    <option value="b">Under construction</option>
+                    <option value="c">Furnished</option>
+                    <option value="d">Unfurnished</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <select name="bedrooms">
+                    <option value="">Bedrooms</option>
+                    <option value="1">1 Bedroom</option>
+                    <option value="2">2 Bedrooms</option>
+                    <option value="3">3 Bedrooms</option>
+                    <option value="4">4 Bedrooms</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <select name="rooms">
+                    <option value="">Number of Rooms</option>
+                    <option value="1r">3 Room</option>
+                    <option value="2r">4 Rooms</option>
+                    <option value="3r">5 Rooms</option>
+                    <option value="4r">6 Rooms</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <select name="bathrooms">
+                    <option value="">Bathrooms</option>
+                    <option value="1b">1 Bathrooom</option>
+                    <option value="2b">2 Bathrooms</option>
+                    <option value="3b">3 Bathrooms</option>
+                    <option value="4b">4 Bathrooms</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Search Property" class="submit-btn">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p> 2024 Apartments Finder | Address: Buddhanagar, Thapathali, Ktm</p>
+    </footer>
+
+</body>
+</body>
+</html>
